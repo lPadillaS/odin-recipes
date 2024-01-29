@@ -30,11 +30,18 @@ a{
 li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display:flex;
+    align-items:center;
     background-color: white;
     flex-direction: column;
     border: 1px solid black;
     width: 250px;
-    padding-bottom: 2%;
+    padding:5px;
+    gap:5px;
     color:white;
     margin: 20px;   
+}
+
+#recipeContainer{
+    display: flex;
+    flex-direction: row;
 }
