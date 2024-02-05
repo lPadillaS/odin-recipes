@@ -23,9 +23,11 @@ img{
     width: 96%;
     border: 1px solid black;
     margin: 2%;
+    text-align: center;
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;

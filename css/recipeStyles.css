@@ -9,7 +9,7 @@ h1{
     padding: 10px;
 }
 #ingredientsContainer{
-    width: 96%;
+    width: 95%;
     margin: 2%;
     display: flex;  
     gap: 20px;
@@ -23,10 +23,18 @@ ul{
     flex-direction: column;
     gap: 20px;
 }
-#description{
+#recipeContainer > div{
     margin: 2%;
-    width: 46%;
+    width: 48%;
     height: 20vh;
+    padding: 1%;
     background-color: white;
     box-shadow: 0px 0px 10px 2px gray;
+    display:inline-block;
+}
+#recipeContainer{
+    display:flex;
+}
+#recipe{
+    display: inline-block;
 }
