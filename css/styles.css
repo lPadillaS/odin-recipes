@@ -5,6 +5,11 @@
 body{
     background-color: whitesmoke;
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 header{
     background-color: #7D0A0A;
     color: white;
@@ -19,8 +24,14 @@ img{
     max-height: 200px;
     max-width: 250px;
 }
+#main-container{
+    margin: 20px;
+    display:flex;
+    width: 60%;
+    flex-wrap: wrap;
+}
 .recipe-container{
-    width: 96%;
+    box-sizing: border-box;
     border: 1px solid black;
     margin: 2%;
     text-align: center;
